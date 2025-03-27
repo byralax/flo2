@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Florence, With Love</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Floating hearts background -->
+    <div class="floating-hearts" id="floating-hearts"></div>
+
+    <!-- Music control -->
+    <div class="music-control">
+        <button id="music-toggle">
+            <i class="fas fa-music"></i>
+            <span class="music-status">Play Music</span>
+        </button>
+        <audio id="background-music" loop>
+            <source src="love.mp3" type="audio/mp3">
+        </audio>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">Florence</h1>
+            <p class="slide-up">Every moment with you feels like a beautiful dream I never want to wake up from.</p>
+            <button class="cta-button pulse" onclick="scrollToSection('gallery')">The Journey Together</button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div>
+                <span class="scroll-arrow"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery-section" id="gallery">
+        <div class="section-title">
+            <h2>Our Memories</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="gallery-container">
+            <!-- Gallery images will be added by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Modal for expanded images -->
+    <div class="modal" id="image-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-image-container">
+                <img id="modal-image" src="/placeholder.svg" alt="">
+            </div>
+            <p id="modal-caption"></p>
+        </div>
+    </div>
+
+    <!-- Timeline Section -->
+    <section class="section timeline-section" id="timeline">
+        <div class="section-title">
+            <h2>The ultimate delulu story</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="timeline-container">
+            <!-- Timeline events will be added by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Love Meter Section -->
+    <section class="section love-meter-section" id="love-meter">
+        <div class="section-title">
+            <h2>CHEESY MESSAGES</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="love-meter-container">
+            <p class="love-meter-instruction">click the heart for a cheesy message!</p>
+            <div class="heart-container">
+                <div class="heart" id="heart">
+                    <i class="fas fa-heart"></i>
+                </div>
+            </div>
+            <div class="love-quote" id="love-quote"></div>
+        </div>
+    </section>
+
+    <!-- Secret Button -->
+    <div class="secret-button" id="secret-button">❤️</div>
+
+    <!-- Surprise Overlay -->
+    <div class="surprise-overlay" id="surprise-overlay">
+        <div class="surprise-content">
+            <h3>I Love You, Florence!(yea I'm lowkey starting to disturb with this😭😭) </h3>
+            <p>Every day with you is a blessing. Thank you for being a light in my life.</p>
+            <button class="close-surprise" id="close-surprise">Close</button>
+        </div>
+        <div class="fireworks" id="fireworks"></div>
+    </div>
+
+    <footer>
+        <p>Made with <i class="fas fa-heart"></i> for  Miss Florence</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
