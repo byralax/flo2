@@ -44,7 +44,7 @@ const galleryImages = [
     },
     {
         id: 8,
-        src: "8.jpeg",
+        src: "8.jpg",
         alt: "calls together",
         caption: "special friends type shii"
     },
