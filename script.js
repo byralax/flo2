@@ -44,9 +44,9 @@ const galleryImages = [
     },
     {
         id: 8,
-        src: ".jpeg",
-        alt: "if we get to celebrate our next birthdays together",
-        caption: "if we get to celebrate our next birthdays together"
+        src: "8.jpeg",
+        alt: "calls together",
+        caption: "special friends type shii"
     },
     {
         id: 9,
