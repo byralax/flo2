@@ -65,13 +65,13 @@ const galleryImages = [
 // Timeline events data
 const timelineEvents = [
     {
-        date: "October 11, 2022",
+        date: "October 11, 2023",
         title: "The day Chibu just had to set me up",
         description: "I'd do the Our eyes met across the room story but we both know what happened that day sooo..",
         icon: "fa-heart"
     },
     {
-        date: "October 25, 2022",
+        date: "October 25, 2023",
         title: "First Date (If I'll call it that)",
         description: "conversation that lasted for hours and bicycle delivered bgh rice 😂",
         icon: "fa-coffee"
