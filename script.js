@@ -28,18 +28,18 @@ const galleryImages = [
         id: 5,
         src: "7.jpeg",
         alt: "tech xplore",
-        caption: "Defense"
+        caption: "tech xplore"
     },
     {
         id: 6,
         src: "5.jpeg",
-        alt: "Picnic in the park",
-        caption: "A perfect spring day"
+        alt: "also defencse",
+        caption: "mhmmm"
     },
     {
         id: 7,
         src: "1.jpeg",
-        alt: "Defense",
+        alt: "tryna kiss bae",
         caption: "Defense"
     },
     {
